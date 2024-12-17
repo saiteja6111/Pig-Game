@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+h1 {
+    color: #444;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+/* Game Container */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Player Scores */
+.scores {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.player {
+    background-color: #87cefa;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.current-turn {
+    background-color: #ffcccb;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Messages */
+#message {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ff4500;
+}
+
+#winner {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #228b22;
+    margin-top: 20px;
+}
